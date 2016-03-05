@@ -1,5 +1,8 @@
 # httptraceroute - the url tracerouter
 
+I've created this to test my apache/nginx redirects. 
+Someone else might find it useful.
+
 ## Using
 
 It is simple:
