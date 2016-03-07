@@ -1,0 +1,8 @@
+#!/bin/bash 
+echo Start tracing $i...  
+for result in `curl -Iv $1 -L 2>&1| grep "^Location\|^HTTP" |cut -d' ' -f2`; do 
+    [[ ${#result} -gt 3  ]] && result="       "$(echo $result ) && echo  || result=""$(echo $result |cat -v ) 
+    echo -ne "\r$1 .. $result " 
+done
+echo 
+
