@@ -3,6 +3,9 @@
 I've created this to test my apache/nginx redirects. 
 Someone else might find it useful.
 
+Be aware that this script was made for study purposes and is not following
+KISS practices. ;-) For a more easy and professional use the lite version.
+
 ## Using
 
 It is simple:
