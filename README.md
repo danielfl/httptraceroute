@@ -3,8 +3,9 @@
 I've created this to test my apache/nginx redirects. 
 Someone else might find it useful.
 
-Be aware that this script was made for study purposes and is not following
-KISS practices. ;-) For a more easy and professional use the lite version.
+Be aware that this script was made for studying purposes and is not following
+KISS practices. ;-) For a more easy to read and light script use the "httptracelite" version
+which has no regex, no repeated requisitions, and no bash hacks.
 
 ## Using
 
